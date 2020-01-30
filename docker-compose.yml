@@ -1,8 +1,8 @@
-version: '3'
+version:                          '3'
 services:
   embedding-projector-standalone:
-    network_mode: bridge
-    restart: always
-    ports: 
-      - 8080:80
-    image: embedding-projector-standalone
+    network_mode:                 bridge
+    restart:                      always
+    ports:
+      - 8081:80
+    image:                        embedding-projector-standalone
